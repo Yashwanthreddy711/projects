@@ -1,0 +1,109 @@
+*{
+    color: white;
+    font-family: 'Roboto', sans-serif;
+}
+body{
+    
+    margin: 0px;
+    padding: 0px;
+    background: url('img/gym.jpg');
+    background-repeat: no-repeat;
+   
+}  
+
+.left{
+    /* border: 2px solid green; */
+    width: 15%;
+    display: inline-block;
+    top: 15px;
+    left: 21px;
+    position: absolute;
+
+}
+.mid
+{
+    /* border: 2px solid red; */
+    width: 33%;
+    display: block;
+    margin: 3px auto;
+    margin-left: 383px;
+}
+.right
+{
+    
+           /* border: 2px solid yellow; */
+    width: 10%;
+    top: 28px;
+    right: 3px;
+    position: absolute;
+
+}  
+.container
+{
+     /* border: 2px solid blue;  */
+     width: 30%;
+     margin: 190px 84px;
+}
+.image{
+    width: 108px;
+    /* top: 10px; */
+    margin-top: -15px;
+    filter: invert(100%);
+    margin-left: 10px;
+}
+.navbar li{
+    display: inline-block;
+    padding: 10px;
+    font-size: 20px;
+}
+.navbar li :hover{
+    color: grey;
+    text-decoration: underline;
+}
+.navbar li a{
+    text-decoration: none;
+    color: white;
+}
+.btn{
+    color: white;
+    background-color: transparent;
+    padding: 9px;
+
+    /* border:2px solid grey; */
+
+    
+}
+.btn:hover{
+    cursor: pointer;
+    text-decoration: underline;
+    color: grey;
+}
+.form-group{
+    text-align: center;
+    display: block;
+    border-radius: 10px;
+    margin-top: 12px;
+    width: 348px;
+    padding: 8px;
+    font-size: 16px;
+    color: black;
+    cursor: pointer;
+}
+.submit
+{
+    display: block;
+    border-radius: 11px;
+    color: blue;
+    margin: auto;
+    width: 142px;
+    margin-left: 111px;
+    margin-top: 10px;
+    background-color: #0fadd5fc;
+    font-size: 17px;
+    color: black;
+    padding: 5px;
+    cursor: pointer;
+}
+
+
+
