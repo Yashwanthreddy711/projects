@@ -1,0 +1,38 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+body{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+.title{
+     position: relative;
+     margin: 10px;
+     left: 25px;
+     
+}
+.username{
+    position: relative;
+    margin: 5px;
+    padding: 5px;
+    width: 201px;
+}
+.password{
+    
+    padding: 5px;
+    margin: 5px;   
+    width: 201px;
+}
+.btn{
+   
+    position: relative;
+    padding: 10px;
+    margin: 5px;   
+    width: 201px;
+    left: 35px;
+   
+}
