@@ -1,0 +1,88 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;600;700&family=Poppins:wght@400;500;600&family=Roboto&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Poppins, sans-serif;
+}
+body{
+    height: 100vh;
+    width: 100%;
+    background-color: yellow;
+}
+.container{
+    width: 400px;
+    height: auto;
+    background-color: #fff;
+    margin: 120px auto;
+    border-radius: 5px;
+    padding: 20px;
+
+}
+h4{
+    
+    display: flex;
+    justify-content: end;
+}
+h3{
+    
+    display: flex;
+    justify-content: center;
+    color: green;
+    margin-top: 30px;
+    font-size: 25px;
+    font-weight: 900;
+}
+
+.btn
+{
+    display: flex;
+    margin-top: 20%;
+    
+}
+.rock,.paper,.scissor{
+    background-color: yellow;
+    height: 75px;
+    width: 75px;
+    border: none;
+    outline: none;
+    border-radius: 50%;
+    font-size: 50px;
+    margin: 0 20px;
+    cursor: pointer;
+    opacity: 1;
+}
+.rock:hover,.paper:hover,.scissor:hover{
+    opacity: 0.75;
+}
+
+.u-choice{
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
+}
+.c-choice{
+    display: flex;
+    justify-content: center;
+    margin-top: 10px;
+}
+.win{
+    width: 170px;
+    display: flex;
+    margin: auto;
+    justify-content: center;
+    margin-top: 30px;
+    background-color: rgb(136, 192, 136);
+    
+    
+}
+
+
+
+/* .rock
+{
+    background-color: white;
+    height: 50px;
+    width: 50px;
+
+} */
